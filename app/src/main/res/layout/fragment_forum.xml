@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_height="match_parent"
+    android:background="@color/smoke"
+    android:orientation="vertical"
+    tools:context=".Home_Page_Fragments.Forum">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/message_shape"
+        android:backgroundTint="@color/smoke"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:hint="ask here?"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/round_background"
+                android:backgroundTint="@color/white"
+                android:id="@+id/searchBar"
+                />
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/uploadQuestion"
+                android:layout_gravity="end|center"
+                android:drawableBottom="@drawable/send" />
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/spin_kit"
+                style="@style/SpinKitView.Small.ThreeBounce"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                app:SpinKit_Color="@color/blue"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/goToMyQAndR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/black"
+                    android:drawablePadding="20dp"
+                    android:drawableEnd="@drawable/next"
+                    android:clickable="true"
+                    android:text="My Questions"
+                    android:textSize="14dp" />
+                <TextView
+                    android:id="@+id/myQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:layout_gravity="end"
+                    android:textColor="@color/blue"
+                    android:drawablePadding="20dp"
+                    android:drawableEnd="@drawable/dropdown"
+                    android:clickable="true"
+                    android:text="your last question"
+                    android:textSize="14dp" />
+            </FrameLayout>
+
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/expandable_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:el_duration="1000"
+                app:el_expanded="false"
+                app:el_parallax="0.5">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:gravity="top"
+                        android:id="@+id/lastQuestion"
+                        android:background="@drawable/round_background"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="10dp"
+                        android:gravity="end"
+                        android:paddingHorizontal="15dp">
+                        <TextView
+                            android:id="@+id/edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/edit"
+                            android:layout_marginRight="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                </LinearLayout>
+            </net.cachapa.expandablelayout.ExpandableLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:text="Different Students Questions"
+      android:paddingLeft="15dp"
+        android:textColor="@color/blue"
+        android:textSize="14dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/questionRv"
+        />
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".settings">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/blue"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:backgroundTint="@color/blue"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_height="40dp"
+            android:drawableTop="@drawable/back2"
+            android:layout_marginEnd="10dp"
+            app:cornerRadius="50dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/titles_in_main_view"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="50dp"
+            android:textSize="20dp"
+            android:text="ABOUT CSEEPA"
+            />
+
+    </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    android:textSize="36dp"
+    android:text="CSEEPA"
+    android:textColor="@color/smoke"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="18dp"
+android:text="CSEEPA(Computer Science Exit Exam Preparation App is an Android application that allows the user to get materials of the exit exam for Computer Science easily .  It Contains PDF files,BOOKS,and VIDEO that are related to the files and the books.
+This application includes different Activities for changing pages that imitate the turning of pages of a PDF and Watching Videos."
+     />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingStart="30dp"
+       android:textColor="@color/black"
+       android:drawableEnd="@drawable/profile"
+       android:drawablePadding="10dp"
+       android:textSize="14dp"
+       android:text="Call Us"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:text="0964314791"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:text="0912348711"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:text="0972345621"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:text="0987436017"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:drawableEnd="@drawable/profile"
+        android:drawablePadding="10dp"
+        android:text="Mail Us"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:text="abcd@gmail.com"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:text="efg@gmail.com"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:text="sura@gmail.com"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:text="Lora@gmail.com"
+        />
+</LinearLayout>
+</LinearLayout>

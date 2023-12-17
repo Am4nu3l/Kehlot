@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="5dp"
+    android:orientation="horizontal"
+    android:id="@+id/notes"
+    android:layout_height="wrap_content"
+    tools:context=".ListRows.CourseList">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/list_img"
+        android:layout_marginEnd="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:id="@+id/course_title"
+        android:textSize="12dp"
+        android:text="Temp Color"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:backgroundTint="@color/white"
+      android:id="@+id/locker"
+        android:src="@drawable/locked"
+        />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Kehlot</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appName"><b>EXAMLAB</b></string>
+    <string name="hello_guest_nwelcome_to_exam_lab"><b>Hello, Guest!\nWelcome to Kihlot</b></string>
+    <string name="don_t_have_an_account_ncreate_your_account"><b>Don\'t have an Account?\nCreate your Account</b></string>
+    <string-array name="courses">
+        <item>Computer Programming </item>
+        <item>Database Systems</item>
+        <item>Object Oriented Programming</item>
+        <item>Computer organization and Architecture </item>
+        <item>DC and Computer Networking</item>
+        <item>Data Structures and Algorithms </item>
+        <item>Web programming </item>
+        <item>Operating System </item>
+        <item>Software Engineering</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Introduction to Artificial Intelligence</item>
+        <item>Computer Security </item>
+        <item>Network and System Administration</item>
+        <item> Automata and Complexity Theory</item>
+        <item> Compiler Design</item>
+    </string-array>
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">10dp</item>
+        <item name="textAllCaps">true</item>
+    </style>
+</resources>

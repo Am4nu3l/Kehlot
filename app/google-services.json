@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936504802795",
+    "project_id": "examlab-7e6c1",
+    "storage_bucket": "examlab-7e6c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936504802795:android:e64d880adecdfe0b752dae",
+        "android_client_info": {
+          "package_name": "com.example.examlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936504802795-r2mjkgccqi6nrp291a0bbgnmh6i3rjrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpi6zYV0SAh0PaeggJL30auNhoLh8NFxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936504802795-r2mjkgccqi6nrp291a0bbgnmh6i3rjrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".StarterPages.WalkThroughPage1">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hello!!"
+    android:gravity="center"
+    android:textSize="24dp"
+    android:textColor="@color/blue"
+    android:textStyle="bold"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Kihlot"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/mobile8"
+        android:layout_marginHorizontal="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our Exam Preparation App, the perfect tool to help you achieve your academic goals. With our app, you can efficiently prepare for your exams, track your progress, and identify your strengths and weaknesses."
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/arif_blue"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="get started"
+
+        android:backgroundTint="@color/blue"
+        android:id="@+id/getStarted"
+        app:cornerRadius="10dp"
+        />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".StarterPages.WalkThroughPage1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Management and Advisory"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/mobile10"
+        android:layout_marginHorizontal="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our app make it easy for you to manage time by offering todo list and reminder concept. This feature allows you to how you manage your time. and get advice from a lecture accordingly"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/arif_blue"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="get started"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/getStarted"
+        app:cornerRadius="10dp"
+        />
+</LinearLayout>

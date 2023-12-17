@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/kehlot"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Kehlot, your ultimate companion for university exit exam preparation"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We understand the importance of acing your exams and reaching your academic goals\n. With Kehlot, you\'ll have access to a comprehensive set of features designed to enhance your learning experience and maximize your success.
+
+\nExtensive Study Materials: Kehlot provides a vast collection of study materials tailored specifically for university exit exams. Whether you\'re pursuing studies in Engineering, Medicine, Business, or Humanities, our app covers all major departments. Each department is further categorized into courses, allowing you to focus on the subjects that matter to you the most.
+
+Video Lectures: Dive into engaging video lectures presented by experienced professors and experts in their respective fields. Visualize complex concepts and reinforce your understanding through dynamic and interactive learning.
+
+\nComprehensive Notes: Access meticulously crafted notes that condense important topics and key points, helping you grasp the core concepts efficiently. Our notes are structured and organized, making revision a breeze.
+
+\neBooks and Reference Materials: Explore a vast library of recommended textbooks and reference materials handpicked by our team of educators. These resources serve as valuable companions to deepen your knowledge and provide additional insights.
+
+\nTest Questions and Mock Exams: Test your understanding and assess your progress with a wide range of practice questions and mock exams. Practice makes perfect, and Kehlot ensures you have ample opportunities to refine your skills and boost your confidence.
+
+\nInteractive Forum: Engage in lively discussions and exchange knowledge with fellow students through our interactive forum. Seek clarification, ask questions, and share your insights to foster a collaborative learning environment. Our community of learners and experts is always ready to support you on your educational journey.
+
+\n Personalized Study Planner: Stay organized and on track with our built-in study planner. Create a personalized study schedule, set reminders for specific study tasks, and receive timely notifications. With Kehlot, you'll never miss an important study session, ensuring consistent progress towards your goals.
+
+At Kehlot, we are committed to providing you with a seamless and enriching learning experience. Prepare with confidence, access high-quality study materials, and connect with a vibrant community of learners. Download Kehlot today and unlock your potential for success in your university exit exams.
+"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".StarterPages.WalkThroughPage1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Study Material"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/yellow"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginHorizontal="10dp"
+        android:src="@drawable/mobile4"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Our app offers a vast library of study materials that cover various subjects and levels. You can access notes, lectures, quizzes, and books to help you learn and reinforce your knowledge."
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/arif_blue"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="get started"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/getStarted"
+        app:cornerRadius="10dp"
+        />
+</LinearLayout>

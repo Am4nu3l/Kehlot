@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/smoke"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/arif_blue"
+                android:src="@drawable/kihlot"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/full_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Tsion Gebru"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                android:text="liplap2020gmail.com"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:id="@+id/edit_profile_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/arif_blue"
+                android:text="Edit Profile"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/delete_profile_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/arif_blue"
+                android:text="delete Profile"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/bio_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="16dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Quote" />
+            <TextView
+                android:id="@+id/bio_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                android:layout_marginHorizontal="16dp"
+                android:text=" Education is the most powerful weapon which you can use to change the world.- Nelson Mandela"
+                android:lineSpacingExtra="4dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/nameContainer"
+                android:visibility="gone"
+                >
+                <EditText
+                    android:id="@+id/editFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/message_shape"
+                    android:enabled="false"
+                    android:allowClickWhenDisabled="false"
+                    android:layout_marginTop="16dp"
+                    android:text="First Name"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:backgroundTint="@color/white"
+                    android:layout_marginHorizontal="16dp" />
+                <EditText
+                    android:id="@+id/editMiddleName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/message_shape"
+                    android:enabled="false"
+                    android:layout_weight="1"
+                    android:allowClickWhenDisabled="false"
+                    android:layout_marginTop="16dp"
+                    android:text="Middle Name"
+                    android:padding="5dp"
+                    android:backgroundTint="@color/white"
+                    android:layout_marginHorizontal="16dp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/message_shape"
+                android:enabled="false"
+                android:allowClickWhenDisabled="false"
+                android:layout_marginTop="16dp"
+                android:text="0964314791"
+                android:padding="5dp"
+                android:backgroundTint="@color/white"
+                android:layout_marginHorizontal="16dp" />
+            <EditText
+                android:id="@+id/depName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/message_shape"
+                android:layout_marginTop="16dp"
+                android:text="Computer Science"
+                android:padding="5dp"
+                android:enabled="false"
+                android:allowClickWhenDisabled="false"
+                android:backgroundTint="@color/white"
+                android:layout_marginHorizontal="16dp"
+                />
+            <EditText
+                android:id="@+id/editQuote"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/message_shape"
+                android:enabled="false"
+                android:visibility="gone"
+                android:allowClickWhenDisabled="false"
+                android:layout_marginTop="16dp"
+                android:text="Tsion"
+                android:padding="5dp"
+                android:backgroundTint="@color/white"
+                android:layout_marginHorizontal="16dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/signOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:backgroundTint="@color/arif_blue"
+                    android:text="sign out"
+                    android:layout_gravity="center"/>
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="@color/arif_blue"
+                    android:visibility="gone"
+                    android:text="Save"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

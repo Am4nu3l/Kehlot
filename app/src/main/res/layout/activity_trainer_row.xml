@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    tools:context=".ContentView.trainer_row">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="150dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="top|left"
+        app:cardCornerRadius="100dp"
+        android:backgroundTint="@color/blue"
+        android:layout_marginEnd="250dp"
+        >
+    </androidx.cardview.widget.CardView>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginEnd="25dp"
+       android:id="@+id/trainer_name"
+       android:text="Professor Worku"
+       android:textSize="16dp"
+       android:textColor="@color/blue"
+       android:layout_gravity="top|center"
+       />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical|center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="top|right"
+            android:drawableEnd="@drawable/notification"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="top|right"
+            android:drawableEnd="@drawable/notification"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="top|right"
+            android:drawableEnd="@drawable/notification"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="top|right"
+            android:drawableEnd="@drawable/notification"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="top|right"
+            android:drawableEnd="@drawable/notification"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Course: "
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:id="@+id/trainer_major"
+        android:textColor="@color/blue"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact: "
+        android:textSize="14dp"
+        android:id="@+id/trainer_level"
+        android:textColor="@color/blue"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="40dp"
+        />
+
+</FrameLayout>
+
+
+</androidx.cardview.widget.CardView>

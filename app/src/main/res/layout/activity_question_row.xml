@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/message_shape"
+    tools:context=".ListRows.QuestionRow">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/profile"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:id="@+id/userName"
+                android:text="Amanuel Alemayehu"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:drawablePadding="15dp"
+            android:gravity="top"
+            android:layout_marginTop="30dp"
+            android:id="@+id/content"
+            android:textColor="@color/black"
+            android:hint="What is Object Oriented Programming"
+            android:background="@drawable/round_background"
+            android:backgroundTint="@color/white"
+            />
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:gravity="end"-->
+<!--            android:paddingHorizontal="15dp">-->
+<!--            <TextView-->
+<!--                android:id="@+id/answer"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:drawableEnd="@drawable/answerusr"-->
+<!--                android:textSize="14dp" />-->
+<!--        </LinearLayout>-->
+    </FrameLayout>
+</LinearLayout>
